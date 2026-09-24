@@ -21,8 +21,15 @@ app.get('/', (req, res) => {
   res.send('<h1>DevOps Capstone Application is Running!</h1><p>Status: Healthy</p>');
 });
 
+// ... existing code ...
+
 app.get('/health', (req, res) => {
   res.status(200).json({ status: 'UP', timestamp: new Date() });
+});
+
+app.get('/metrics', (req, res) => {
+  res.set('Content-Type', 'text/plain');
+  res.send('node_app_status 1\n');
 });
 
 app.listen(PORT, '0.0.0.0', () => {
