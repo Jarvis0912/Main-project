@@ -5,7 +5,7 @@ pipeline {
         DOCKERHUB_USER = 'jarvis0912'
         IMAGE_NAME     = 'devops-capstone-app'
         IMAGE_TAG      = "${BUILD_NUMBER}"
-        APP_SERVER_IP  = '13.203.76.176'
+        APP_SERVER_IP  = '43.204.237.116'
     }
 
     stages {
