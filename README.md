@@ -27,9 +27,9 @@ To build and run this application locally on your machine, ensure Docker is inst
 
    #Access the application:
 
-Web App: http://localhost:3000
+Web App: http://13.203.76.176:3000
 
-Health/Metrics Endpoint: http://localhost:3000/metrics
+Health/Metrics Endpoint: http://13.203.76.176:3000
 
 
 CI/CD Flow Explained
